@@ -12,7 +12,7 @@ public class Functions2 {
         System.out.println(z);
 
         greet(" Aditya",43);
-        greet("Abhimanue", 34);
+        greet(83,"Rohit");
 
         fun();
         fun1();
@@ -36,11 +36,11 @@ public class Functions2 {
 
     }
     static void greet(String name ,int age){    //Different order of parameter
-        System.out.println("Hi"+name+"Your age is "+ age);
+        System.out.println("Hi"+name+" my age is "+ age);
     }
 
-    static void greet(int age,string name){
-        System.out.println("Hi"+name+"Your age is "+ age);
+    static void greet(int age,String name){
+        System.out.println("Hi "+name+" my age is "+ age);
     }
 
     static void fun(){

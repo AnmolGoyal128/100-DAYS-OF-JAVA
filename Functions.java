@@ -8,7 +8,9 @@ public class Functions {
         getnumber();  //Nothing will happen no assignment
        System.out.println(getnumber());
 
-       System.out.println(multiply(2,4));
+       int x = multiply(23, 56);
+
+       System.out.println(x);
 
        return;  //Optional
 

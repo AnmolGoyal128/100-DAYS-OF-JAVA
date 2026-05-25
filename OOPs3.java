@@ -49,4 +49,9 @@ class Student{
 
     }
 
+    public void print() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'print'");
+    }
+
 }

@@ -15,8 +15,8 @@ public class Encapsulation {
         System.out.println(ba.getBalance());
 
         student s1 = new student("Abhishek",34,56789,"IIT G");
-        s1.getNum();
-        s1.getCollege();
+        // s1.getNum();
+        // s1.getCollege();
         s1.setNum("anuj");
         s1.setCollege("IIT G"); 
         

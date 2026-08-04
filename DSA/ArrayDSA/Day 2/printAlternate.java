@@ -7,13 +7,13 @@ public class printAlternate {
         int j = n-1;
         while(i<=j){
             if(i==j){
-                System.out.println(mrr[i]);
+                System.out.print(mrr[i] + " ");
                 return;
             }
             else{
-                System.out.println(mrr[i]);
+                System.out.print(mrr[i]+ " ");
                 i++;
-                System.out.println(mrr[j]);
+                System.out.print(mrr[j] + " ");
                 j--;
                 
 

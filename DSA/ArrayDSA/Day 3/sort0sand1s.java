@@ -30,6 +30,8 @@ public class sort0sand1s {
     public void main(String[] args) {
         int[] nums = {1,0,1,0,0,0,1,0,1};
         sortarray(nums);
+
+        
     }
 
 

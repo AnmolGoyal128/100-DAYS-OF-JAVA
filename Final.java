@@ -1,11 +1,6 @@
 public class Final {
     public static void main(String[] args) {
-<<<<<<< HEAD
         System.out.println(random.PI);
-=======
-        random r1 = new random();
-        System.out.println(r1.PI);
->>>>>>> origin/main
 
         final int x = 4;
         //x = 4;

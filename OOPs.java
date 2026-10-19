@@ -1,12 +1,7 @@
 public class OOPs {   //Java is almost a object oriented language
     public static void main(String[] args) { //main function
-<<<<<<< HEAD
         ObjectStudent s1 = new ObjectStudent();
         ObjectStudent s2 = new ObjectStudent();
-=======
-        student s1 = new student();
-        student s2 = new student();
->>>>>>> origin/main
 
         s1.name = "Aditya";
         s1.College = "IIT ";
@@ -30,11 +25,7 @@ public class OOPs {   //Java is almost a object oriented language
 }
 
 //class formation out of outer most bracket
-<<<<<<< HEAD
 class ObjectStudent{
-=======
-class student{
->>>>>>> origin/main
     String name;
     int age;
     int rollNumber;

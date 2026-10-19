@@ -71,20 +71,12 @@ public class jumpstatements {
         *****
         *****
         ***** */
-<<<<<<< HEAD
     for(int u=1 ;u<=10;u++){
-=======
-       outer : for(int u=1 ;u<=10;u++){
->>>>>>> origin/main
             inner: for(int v = 1; v<=u;v++){
                 System.out.print("* ");
 
                 if(v>=5){
-<<<<<<< HEAD
                     continue inner;
-=======
-                    continue;
->>>>>>> origin/main
 
                 }
             }

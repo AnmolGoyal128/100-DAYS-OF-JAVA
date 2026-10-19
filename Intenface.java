@@ -1,20 +1,12 @@
 public class Intenface {
     public static void main(String[] args) {
 
-<<<<<<< HEAD
         VehicleInterface Car = new InterfaceElectricCar();
-=======
-        car Car = new ElectricCar();
->>>>>>> origin/main
         Car.start();
         Car.accelerate();
         Car.brake();
 
-<<<<<<< HEAD
         VehicleInterface Car1 = new InterfaceFuelCar();
-=======
-        car Car1 = new FuelCar();
->>>>>>> origin/main
         Car1.start();
         Car1.accelerate();
         Car1.brake();
@@ -25,21 +17,13 @@ public class Intenface {
     
 }
 
-<<<<<<< HEAD
 interface VehicleInterface{
-=======
-interface car{
->>>>>>> origin/main
     void start();
     void accelerate();
     void brake();
 
 }
-<<<<<<< HEAD
 class InterfaceFuelCar implements VehicleInterface{
-=======
-class FuelCar implements car{
->>>>>>> origin/main
      @Override
 
      public void start(){
@@ -61,11 +45,7 @@ class FuelCar implements car{
 
 
 }
-<<<<<<< HEAD
 class InterfaceElectricCar implements VehicleInterface{
-=======
-class ElectricCar implements car{
->>>>>>> origin/main
      @Override
 
     public void start(){

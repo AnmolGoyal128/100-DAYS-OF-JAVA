@@ -31,7 +31,6 @@ public class aut0unboxing {
             // int sum = r.intValue() + t.intValue();   -->behind the ssen
             System.out.println(sum);
 
-<<<<<<< HEAD
             Integer u = args.length == 0 ? null : args.length;
             if (u != null) {
                 int o = u;
@@ -39,12 +38,6 @@ public class aut0unboxing {
             } else {
                 System.out.println("Cannot unbox a null Integer");
             }
-=======
-            Integer u = null;
-            int o = u;    //int dont know null it only knoes 0
-            //gives a null point exception in run time
-           //int o = u.intValue();
->>>>>>> origin/main
     }
 
     static void printInteger(int x){

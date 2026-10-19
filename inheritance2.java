@@ -14,11 +14,7 @@ public class inheritance2 {
 }
 
 //Simple Inheritance 
-<<<<<<< HEAD
 class InheritanceBaseStudent{   //parent -A
-=======
-class Student{   //parent -A
->>>>>>> origin/main
     String name;
     int age;
 
@@ -26,31 +22,19 @@ class Student{   //parent -A
         System.out.println("Attendence marked");
     }
 }
-<<<<<<< HEAD
 class InheritanceEngineeringStudent2 extends InheritanceBaseStudent{ //child -B
-=======
-class EngenneringStudent extends Student{ //child -B
->>>>>>> origin/main
     void attendllab(){
         System.out.println("Lab Attended");
     }
 }
 
-<<<<<<< HEAD
 //  class  CSEEngenneringStudent extends InheritanceEngineeringStudent2{
-=======
-//  class  CSEEngenneringStudent extends EngeneeringStudent{
->>>>>>> origin/main
 //     void attendlab(){
 //         System.out.println("CSE lab attended");
 //     }
 // }
 
-<<<<<<< HEAD
 class MedicalStudent extends InheritanceBaseStudent{  //Child -C
-=======
-class MedicalStudent extends Student{  //Child -C
->>>>>>> origin/main
     void attendlab(){
         System.out.println("Chem lab attended");
     }

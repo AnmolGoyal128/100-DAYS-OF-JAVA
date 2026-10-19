@@ -1,7 +1,12 @@
 public class Demo3 {
     public static void main(String[] args) {
+<<<<<<< HEAD
         A.fun();
         B.fun();
+=======
+        A a = new B();    //a is reference of A so when we call a fun of A is printed 
+        a.fun();
+>>>>>>> origin/main
 
         D d = new E();
         //System.out.println(d.x);
@@ -23,7 +28,10 @@ class A {
         System.out.println("Hello");
     }
 
+<<<<<<< HEAD
     @SuppressWarnings("unused")
+=======
+>>>>>>> origin/main
     private void fun2(){
         System.out.println("Hello2");
     }
@@ -38,7 +46,10 @@ class B extends A{
         System.out.println("Bye");
     }
 
+<<<<<<< HEAD
     @SuppressWarnings("unused")
+=======
+>>>>>>> origin/main
     private void fun2(){
         System.out.println("Hello3");
     }
